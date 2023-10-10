@@ -1,0 +1,40 @@
+1. crear carpeta de proyecto
+2. crear carpeta public
+	mkdir public
+	mkdir images
+3. crear la carpeta styles
+	mkdir styles
+	touch main.css
+4. crear carpeta views
+	mkdir views
+	touch index.ejs
+5. crear los archivos en el proyecto
+	touch index.js
+6. inicializar el node 
+	npm init -y
+7. inicializar el express ejs 
+	npm i express
+8. codificar en package.json 
+	"type":"module"
+9. instalar el nodemon
+	npm i -g nodemon
+10. instalar el body-parser
+	npm i body-parser
+11. instalar el ejs
+	npm i ejs 
+12. instalar el morga
+	npm i morgan
+13. instalar el axios 
+	npm i axios
+
+
+
+
+
+
+
+
+
+
+
+	
