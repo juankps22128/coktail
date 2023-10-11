@@ -32,6 +32,7 @@
 	inicia el control git: 	git add .
 	commit del trabajo:	git commit -m "comentario"
 	revisar el commit:	git log
+
 15. crear el repositorio GIT en línea
 	crear como "public"
 	copiar dir. web repositorio: 	https://github.com/juankps22128/coktail.git
@@ -39,6 +40,10 @@
 	crear la rama principal: 	git branch -M main
 	mover a la rama principal: 	git push -u origin main
 	revisar en el git web que se haya creado correctamente
+	PARA CADA COMMIT PRIMERO	git add .
+	DESPUES DE CADA COMMIT		git commit -m "comentario"
+	FINALMENTE			git pus -u origin main 
+
 16. codificar el archivo index.ejs con el HTML correspondiente
 	codificar el contenido HTML:	!
 	linkear el main.css: 		<link rel="stylesheet" href="style.css">
