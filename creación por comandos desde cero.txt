@@ -26,6 +26,53 @@
 	npm i morgan
 13. instalar el axios 
 	npm i axios
+14. instalar el GIT 
+	inicializa el git: 	git init 
+	ve el estado del git: 	git status
+	inicia el control git: 	git add .
+	commit del trabajo:	git commit -m "comentario"
+	revisar el commit:	git log
+15. crear el repositorio GIT en línea
+	crear como "public"
+	copiar dir. web repositorio: 	https://github.com/juankps22128/coktail.git
+	crear el mando a distancia: 	git remote add origin https://github.com/juankps22128/coktail.git
+	crear la rama principal: 	git branch -M main
+	mover a la rama principal: 	git push -u origin main
+	revisar en el git web que se haya creado correctamente
+16. codificar el archivo index.ejs con el HTML correspondiente
+	codificar el contenido HTML:	!
+	linkear el main.css: 		<link rel="stylesheet" href="style.css">
+	linkear jQuery: <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+			<!-- link para el jQuery... siempre antes de cerrar en body !! -->
+	
+17. codificar el main.css segun el diseño requerido
+
+18. codificar index.js para que se conecte con el index.ejs
+	import express from "express"
+	import axios from "axios";
+	import bodyParser from "body-parser";
+	
+	const app = express();	//creamos la variable app del tipo express
+	const port = 3000;	//variable con el numero del puerto 
+	
+	app.use(bodyParser.urlencoded({ extended: true }));	//middleware 
+
+	//get inicial para renderizar los resultados de la consulta al servidor 
+	app.get("/", (req, res) => {
+  		res.render("index.ejs", { content: "Waiting for data..." });
+	});
+	//indicamos el puerto de escucha 
+	app.listen(port, () => {
+		  console.log(`Server is running on port ${port}`);
+	});
+
+
+
+
+
+
+
+
 
 
 
